@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { Mail, Phone, Lock, Eye, EyeOff, User, Briefcase, Shield } from "lucide-react";
 
 const USER_ROLES = [
-  { id: "learner", label: "Learner", icon: User },
+  { id: "Student", label: "Student", icon: User },
   { id: "trainer", label: "Mentor", icon: Briefcase },
   { id: "admin", label: "Admin", icon: Shield },
 ];
